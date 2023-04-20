@@ -1,0 +1,23 @@
+html, body  {
+    background: #ffeead;
+}
+.red {
+    background-color: red;
+    border-radius: 2px;
+}
+.blue {
+    background-color: blue;
+    border-radius: 2px;
+}
+.green {
+    background-color: green;
+    border-radius: 2px;
+}
+.purple {
+    background-color: purple;
+    border-radius: 2px;
+}
+.yellow {
+    background-color: yellow;
+    border-radius: 2px;
+}

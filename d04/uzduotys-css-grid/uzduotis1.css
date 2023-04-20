@@ -1,0 +1,59 @@
+/* naudojant grid 
+.container {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 40px) ;
+    grid-gap:3px;
+}
+.red {
+    grid-column: 1 / span 2;
+}
+
+.blue {
+    grid-column: 3 / span 4;
+}
+
+.green {
+    grid-column: 1;
+}
+
+.purple {
+    grid-column:2/span 4;
+}
+
+.yellow {
+    grid-column: 1/-1;
+}
+*/
+/* naudojant raides*/
+.container {
+    height: 20%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat (3, 20px);
+    grid-template-areas:
+    "r r b b"
+    "g p p p"
+    "y y y y";
+}
+
+.red {
+    grid-area: r;
+}
+
+.blue {
+    grid-area: b;
+}
+
+.green {
+    grid-area: g;
+}
+
+.purple {
+    grid-area: p;
+}
+
+.yellow {
+    grid-area: y;
+}
