@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Budget slice</title>
+        <link rel="icon"href="favicon.ico.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="stylesheet"href="#normalize.css">
+        <link rel="stylesheet"href="bs.css">
+    </head>
+<body>
+    <!--STRUCTURE-->
+    <div id="structure">
+        <!--HEADER-->
+        <div id="header" class="part">
+            <div id="logo">
+                <a href="#"><img id="logo" src="budget slice_Logo.png"alt="Budet slice logo"></a>
+            </div>
+            <nav class="main-nav">
+                    <ul class="flex-container-row">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Recepies</a>
+                        </li>
+                    </ul>
+            </nav>
+            <nav class="social-nav">
+                    <ul class="flex-container-row">
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <i class="bi bi-facebook"></i>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <i class="bi bi-twitter"></i>    
+                    </ul>
+            </nav>
+            </div>
+
+        <!--ABOUT HERO-->
+        <div id="abouthero" class="part flex-container-row">
+            <div id="abouttext">
+                <h3> About us</h3>
+            </div>
+        </div>
+
+        <!--ABOUT TEXT-->
+        <div id="aboutpart"class="part flex-container-row">
+            <div id="about">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit explicabo animi quo fuga ut, ipsum omnis cum modi, deserunt veritatis distinctio maiores praesentium assumenda, quisquam deleniti placeat neque nostrum hic? Nostrum commodi neque quod ipsa error rem ipsam, beatae dignissimos voluptatum sint ullam voluptas, dolores recusandae deleniti provident, explicabo vel.</p>
+                <div class="flex-container-row">
+                    <div id="shortwallet">
+                        <i class="bi bi-wallet2">Save your money</i>
+                    </div>
+                    <div id="shorttime">
+                        <i class="bi bi-alarm">Save your time</i>
+                    </div>
+                    <div id="shortactive">
+                        <i class="bi bi-activity">Stay healthy</i>
+                    </div>
+                </div>
+            </div>
+            <div id="aboutphoto">
+            <a href="#"><img id="aboutphoto" src="about.png"alt="About photo"></a>
+            </div>
+        </div>
+
+        <!--NEWS LETTER-->
+         <div id="newsletter" class="part flex-container-column">
+            <h3> Subscribe to our news letter</h3>
+            <div id="subscription" class="flex-container-row">
+                <form action="/action_page.php"method="POST">
+                    <input type="text" id="email" name="email" placeholder="Enter your e-mail adress">
+                </form>
+                <a id="subscription-button" class="button" href="#">Subscribe</a>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <div id="footer"class="part flex-container-row">
+            <div class="contact">
+                <h3>Get in touch with us</h3>
+                <p>Please get in contact with us if you have any questions, requests or want to share your feedback. We would love to hear from you!</p>
+                    <ul>
+                        <li><i class="bi bi-envelope"></i><p>Send an e-mail to us to <a href="mailto:info@budgetslice.com">info@budgetslice.com</a></p></li>
+                        <li><i class="bi bi-telephone"></i><p>Call us at <a href="tel:+46700223344">+4600223344</a></p></li>
+                    </ul>
+            </div>
+            <div class="message">
+                <form action="/action_page.php">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">Name:</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="email">e-mail adress:</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="Your e-mail adress">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="yourmessage">Message:</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                    <a id class="button" href="#">Send</a>
+                </div>
+                </form>
+              </div>
+        </div>
+    </div>
+</body>
+</html>

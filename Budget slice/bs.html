@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget slice</title>
+    <link rel="icon"href="favicon.ico.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet"href="#normalize.css">
+    <link rel="stylesheet"href="bs.css">
+</head>
+<body>
+
+    <!--STRUCTURE-->
+    <div id="structure">
+        <!--HEADER-->
+        <div id="header" class="part">
+            <div id="logo">
+                <a href="#"><img id="logo" src="budget slice_Logo.png"alt="Budet slice logo"></a>
+            </div>
+            <nav class="main-nav">
+                <ul class="flex-container-row">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Recepies</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="social-nav">
+                <ul class="flex-container-row">
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                    <i class="bi bi-facebook"></i>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                    <i class="bi bi-twitter"></i>    
+                </ul>
+            </nav>
+        </div>
+        <!--HERO-->
+        <div id="hero" class="part flex-container-column">
+            <div id="herotext">
+                <h3> Plan your weekly meals based on your budget and preferences</h3>
+            </div>
+            <a class="button" href="#">Start now</a>
+            </div>
+        </div>
+
+        <!--CONTENT-->
+        <div id="content" class="part flex-container-row">
+            <div id="box1">
+                <p><h4>Welcome to the Budget SLICE!</p></h4>
+                <p>Are you struggling with ideas what to cook every day in order to be within dedicated monthly amount of money? Do not worry, we are here to help you.</p>
+                <p>Just in a few steps you will get a weekly menu of 2 (lunch and dinnner) or 3 meals per day (breakfast, lunch and dinner) and a shopping list! You can be sure that your monthly budget will be within a plan.</p>
+                <p>You can choose between regular, children friendly and vegetarian options. </p>
+                <p>On this page you will find recepies, tips and other usefull information that will make your budget and meal planning easier.</p>
+            </div>
+            <div id="box2">
+                <a href="#"><img id="about"src="Content.png"></a>
+            </div>
+        </div>
+
+        <!--FORM-->
+        <div id="form" class="part flex-container-column">
+            <div id="section-heading">
+                <h3>Let's start!</h3>
+                <p>It's easy, just fill out the form and click "Create a menu" button.</p><br>
+            </div>
+            <form action="/action_page.php">
+                <label for="meals">Choose a number of meals per day:</label>
+                <select>  
+                    <option value="1"></option>  
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                </select><br>
+                <label for="portions">Choose a number of people (portions):</label>
+                <select>
+                    <option value="1"></option>    
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                    <option value="4">3</option>
+                    <option value="5">4</option>
+                    <option value="6">5</option>
+                    <option value="7">6</option>
+                </select><br>
+                <label for="budget">Choose a weekly amount of money:</label>
+                <select>
+                    <option value="1"></option>
+                    <option value="2">200-300</option>
+                    <option value="3">300-400</option>
+                    <option value="4">400-500</option>
+                    <option value="5">500-600</option>
+                    <option value="6">600-700</option>
+                    <option value="7">700-800</option>
+                    <option value="8">800-900</option>
+                    <option value="9">900-1000</option>
+                </select><br>
+                <label for="preference">Choose a meal preference:</label>
+                <select>
+                    <option value="1"></option>
+                    <option value="2">Regular</option>
+                    <option value="3">Children friendly</option>
+                    <option value="4">Vegetarian</option><br>
+                </select>
+            </form>
+            <br><a class="button" href="#">Create a menu</a>
+        </div>
+
+        <!--NEWS LETTER-->
+        <div id="newsletter" class="part flex-container-column">
+            <h3> Subscribe to our news letter</h3>
+            <div id="subscription" class="flex-container-row">
+                <form action="/action_page.php"method="POST">
+                    <input type="text" id="email" name="email" placeholder="Enter your e-mail adress">
+                </form>
+                <a id="subscription-button" class="button" href="#">Subscribe</a>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <div id="footer"class="part flex-container-row">
+            <div class="contact">
+                <h3>Get in touch with us</h3>
+                <p>Please get in contact with us if you have any questions, requests or want to share your feedback. We would love to hear from you!</p>
+                    <ul>
+                        <li><i class="bi bi-envelope"></i><p>Send an e-mail to us to <a href="mailto:info@budgetslice.com">info@budgetslice.com</a></p></li>
+                        <li><i class="bi bi-telephone"></i><p>Call us at <a href="tel:+46700223344">+4600223344</a></p></li>
+                    </ul>
+            </div>
+            <div class="message">
+                <form action="/action_page.php">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">Name:</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="email">e-mail adress:</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="Your e-mail adress">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="yourmessage">Message:</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                    <a id class="button" href="#">Send</a>
+                </div>
+                </form>
+              </div>
+        </div>
+    </div>
+</body>
+</html>
