@@ -12,6 +12,19 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <link rel="stylesheet"href="#normalize.css">
         <link rel="stylesheet"href="bs.css">
+        <script>
+        function scrollWin() {
+            window.scrollBy(0, 800);
+        }
+
+        function myFunction1() {
+            document.getElementById("subscription-button").innerHTML = "Thank you!";
+        }
+
+        function myFunction2() {
+            document.getElementsByClassName("message")[0].innerHTML = "Thank you for your message! We will get back to you as fast as we can.";
+        }
+        </script>
     </head>
 <body>
     <!--STRUCTURE-->
@@ -89,7 +102,7 @@
                 <form action="/action_page.php"method="POST">
                     <input type="text" id="email" name="email" placeholder="Enter your e-mail adress">
                 </form>
-                <a id="subscription-button" class="button" href="#">Subscribe</a>
+                <a id="subscription-button" class="button" onclick="myFunction1()">Subscribe</a>
             </div>
         </div>
 
@@ -131,7 +144,7 @@
                 </div>
                 <br>
                 <div class="row">
-                    <a id class="button" href="#">Send</a>
+                    <a id="send-button" class="button" onclick="myFunction2()">Send</a>
                 </div>
                 </form>
               </div>

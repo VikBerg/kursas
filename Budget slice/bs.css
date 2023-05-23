@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    /*margin:0;*/
+    margin:10px;
     color: #274C5B;
 }
 
@@ -19,6 +19,7 @@ body {
 #structure {
     display: flex;
     flex-direction: column;
+
 }
 
 /*HEADER*/
@@ -85,6 +86,7 @@ body {
 #hero {
     background-image: url(Banner.png);
     background-size: cover;
+    padding:40px;
 }
 
 
@@ -121,6 +123,7 @@ body {
 
 #content {
     display:flex;
+    padding:40px;
 
 }
 
@@ -148,6 +151,7 @@ h4 {
     display: flex;
     background-image: url(Form\ background.jpg);
     background-size: cover;
+    padding:40px;
 }
 
 #section-heading {
@@ -196,6 +200,7 @@ h4 {
     background-image: url(Banner2.png);
     background-size: cover;
     text-align: center;
+    padding:40px;
 
 }
 
@@ -207,6 +212,7 @@ h4 {
 
 #foooter {
     background-color: #fff;
+    padding:40px;
 }
 
 .contact{
@@ -215,6 +221,7 @@ h4 {
     text-decoration: none;
     text-align: left;
     width:40%;
+    padding:40px;
 }
 
 #footer ul{
@@ -255,25 +262,25 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   
-  label {
+label {
     padding: 12px 12px 12px 0px;
     display: inline-block;
   }
   
-  .col-25 {
+.col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
   }
   
-  .col-75 {
+.col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
   }
   
 
-  .row::after {
+.row::after {
     content: "";
     display: table;
     clear: both;
@@ -282,12 +289,13 @@ input[type=text], select, textarea {
 
   /*BLOG HERO*/
 
-  #blog {
+#blog {
     background-image: url(Blogbanner.png);
     background-size: cover;
+    padding:40px;
   }
 
-  #blogtext {
+#blogtext {
     top:20%;
     right:28%;
     width:500px;
@@ -308,6 +316,7 @@ input[type=text], select, textarea {
     background-color:#F9F8F8;
     text-align: left;
     width: 30%;
+    padding:40px;
 }
 
 h4 {
@@ -321,17 +330,20 @@ h4 {
     background-color:#fff;
     text-align: left;
     width: 70%;
+    padding:40px;
 }
 
 /*MENU HERO*/
 #menuhero {
     background-image: url(Menuhero.png);
     background-size: cover;
+    padding:40px;
 }
 
 /*MENU PART*/
 #menupart {
     background-color:#EFF6F1 ;
+    padding:40px;
 }
 
 #imortant,#shoppinglist {
@@ -424,11 +436,13 @@ h4 {
 #abouthero {
     background-image: url(abouthero.png);
     background-size:cover;
+    padding:40px;
 }
 
 /*ABOUT TEXT*/
 #aboutpart {
     display: flex;
+    padding:40px;
 }
 
 #aboutphoto {
@@ -460,4 +474,35 @@ h4 {
     width: 200px;
     margin-bottom: 10px;
 
+}
+
+/*RECEPIES*/
+#recepies {
+    background-image: url(recepiesbanner.jpg);
+    background-size: cover;
+    padding: 40px;
+    text-align: center;
+}
+#search-button {
+    margin:20px;
+    margin-left: 0;
+}
+#search-text {
+    margin:20px;  
+    margin-right: 5px;
+
+}
+#tips {
+    background-color: #F9F8F8;
+    padding: 40px;
+}
+#recepie {
+    background-image: url(recepiespart.png);
+    background-size: cover;
+    padding: 60px;
+}
+#recepiebox {
+    background-color: #DBD0D3;
+    border-radius: 10px;
+    padding: 40px;
 }
